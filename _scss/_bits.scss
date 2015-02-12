@@ -1,0 +1,27 @@
+// for Neat, may be used elsewhere
+
+$border-box-sizing: false;
+$max-width: 75em;
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+$ink: #212121;
+$blue: #244189;
+
+@mixin rounded_padded {
+	border-radius: 8px;
+	padding: .75em 1em;
+}
+
+@mixin gray_inputs {
+	font-size: 1em;
+	border: 0;
+	background: #EBEEF2;
+	border: 0;
+	outline: 0;
+	box-shadow: 0 0 12px rgba(0,0,0,.15) inset;
+	&:hover {
+		box-shadow: 0 0 12px rgba(0,0,0,.5) inset;
+	}
+}

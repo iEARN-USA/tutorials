@@ -1,0 +1,18 @@
+.ui-widget {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+}
+
+.ui-selectmenu-button {
+	vertical-align: middle;
+	color: $blue;
+}
+
+.ui-state-default {
+	@include gray_inputs;
+}
+
+.ui-selectmenu-button span.ui-selectmenu-text {
+	line-height: 1;
+	padding: 1em 2.1em 0.8em 1em;
+}
