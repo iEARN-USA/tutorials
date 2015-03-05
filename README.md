@@ -1,6 +1,6 @@
 ## Dependencies
 
-The theme’s CSS is pre-processed using [Sass](/sass/sass) and requires the [Bourbon](/thoughtbot/bourbon) and [Neat](/thoughtbot/neat) libraries. Bourbon and Neat are installed in the directory, you’ll only need to install their Ruby Gem if you want to upgrade them, but to compile, you’ll need to install Sass. Follow the instructions on [Sass’s website](http://sass-lang.com/install) and once you’re set-up, open up Terminal, change directories to the theme’s folder, and run the following command, then start editing the Sass file:
+The theme’s CSS is pre-processed using [Sass](https://github.com/sass/sass) and requires the [Bourbon](https://github.com/thoughtbot/bourbon) and [Neat](https://github.com/thoughtbot/neat) libraries. Bourbon and Neat are installed in the directory, you’ll only need to install their Ruby Gem if you want to upgrade them, but to compile, you’ll need to install Sass. Follow the instructions on [Sass’s website](http://sass-lang.com/install) and once you’re set-up, open up Terminal, change directories to the theme’s folder, and run the following command, then start editing the Sass file:
 
 ```bash
 sass --watch _scss:css --style compressed
